@@ -48,7 +48,7 @@ public class JavascriptWebSocket : ModuleRules
         }        
 		else if (Target.Platform == UnrealTargetPlatform.Linux)
         {
-            PlatformSubdir = Path.Combine(PlatformSubdir, Target.Architecture);
+            PlatformSubdir = Path.Combine(PlatformSubdir, Target.Architectures.Architectures[0].ToString());
         }
 
         PrivateDependencyModuleNames.Add("libWebSockets");

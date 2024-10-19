@@ -1,9 +1,11 @@
 ﻿#include "JavascriptOnEditorCommandlet.h"
 #include "JavascriptIsolate.h"
 #include "JavascriptContext.h"
+#include "JavascriptEditorLibrary.h"
 #if WITH_EDITOR
 // Settings
 #include "JavascriptSettings.h"
+#include "JavascriptEditorModule.h"
 #include "ISettingsModule.h"
 #include "Settings/EditorLoadingSavingSettings.h"
 #endif

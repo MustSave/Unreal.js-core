@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "JavascriptGraphEditorLibrary.h"
 #include "Components/Widget.h"
 #include "Types/SlateStructs.h"
 #include "JavascriptUMG/JavascriptUMGLibrary.h"

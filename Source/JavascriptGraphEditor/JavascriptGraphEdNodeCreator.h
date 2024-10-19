@@ -1,5 +1,6 @@
 ﻿#pragma once
 
+#include "JavascriptGraphEdNode_Comment.h"
 #include "EdGraph/EdGraph.h"
 
 // Forward decl.

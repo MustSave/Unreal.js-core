@@ -8,6 +8,7 @@
 #include "SGraphPanel.h"
 #include "SCommentBubble.h"
 //#include "TextWrapperHelpers.h"
+#include "JavascriptGraphEdNode_Comment.h"
 #include "TutorialMetaData.h"
 #include "Widgets/Text/SInlineEditableTextBlock.h"
 
